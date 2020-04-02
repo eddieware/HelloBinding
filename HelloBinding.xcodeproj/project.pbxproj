@@ -14,6 +14,7 @@
 		C5224CB124355091006E6EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5224CB024355091006E6EFD /* Assets.xcassets */; };
 		C5224CB424355091006E6EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5224CB324355091006E6EFD /* Preview Assets.xcassets */; };
 		C5224CB724355091006E6EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5224CB524355091006E6EFD /* LaunchScreen.storyboard */; };
+		C5224CC024355632006E6EFD /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5224CBF24355632006E6EFD /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C5224CB324355091006E6EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5224CB624355091006E6EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5224CB824355091006E6EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5224CBF24355632006E6EFD /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		C5224CA62435508F006E6EFD /* HelloBinding */ = {
 			isa = PBXGroup;
 			children = (
+				C5224CBE2435561A006E6EFD /* Model */,
 				C5224CA72435508F006E6EFD /* AppDelegate.swift */,
 				C5224CA92435508F006E6EFD /* SceneDelegate.swift */,
 				C5224CAE2435508F006E6EFD /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				C5224CB324355091006E6EFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5224CBE2435561A006E6EFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5224CBF24355632006E6EFD /* Dish.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5224CA82435508F006E6EFD /* AppDelegate.swift in Sources */,
+				C5224CC024355632006E6EFD /* Dish.swift in Sources */,
 				C5224CAA2435508F006E6EFD /* SceneDelegate.swift in Sources */,
 				C5224CAF2435508F006E6EFD /* ContentView.swift in Sources */,
 				C5224CAD2435508F006E6EFD /* HelloBinding.xcdatamodeld in Sources */,
